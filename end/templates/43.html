@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+ <body>
+<h1 style="text-align:center">Update Movie </h1>
+<p id="error"  style="text-align:center; color:red;" >{{error}}</p>
+<form style="text-align:center" name="search" action="" method="post">
+<label>Search Title:</label><br>
+ <input type="text" name="utitle" required><br>
+<label>Search Year:</label><br>
+ <input type="number" name="uyear" required><br>
+<label>Title:</label><br>
+ <input type="text" name="title" ><br>
+<label>Year:</label><br>
+ <input type="number" name="year" ><br>
+<label>Actor:</label><br>
+ <input type="text" name="actor" placeholder="Actor1,Actor2,.." ><br>
+<label>Description:</label><br>
+ <input type="text" name="description" ><br>
+
+ <input type="submit" value="submit">
+ </form>
+<form style="position:relative; top:-150pt; float:right;" action="/admin_menu">
+
+ <input type="submit" value="back to menu">
+</form>
+</body>
+
+
+</htmL>

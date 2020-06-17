@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+ <body>
+<h1 style="text-align:center">Admin Menu</h1>
+<p id="error"  style="text-align:center; color:red;" >{{error}}</p>
+<form style="text-align:center; " action="/insert_movie">
+
+ <br><input style="text-align:center;"  type="submit" value="insert movie">
+</form>
+<form style="text-align:center; " action="/delete_movie">
+
+ <br><input style="text-align:center; "  type="submit" value="delete movie">
+</form>
+
+<form style="text-align:center; " action="/update_movie">
+
+ <br><input style="text-align:center;"  type="submit" value="update movie">
+</form>
+<form style="text-align:center; " action="/delete_any_comments">
+
+ <br><input style="text-align:center;"  type="submit" value="delete movie comments">
+</form>
+<form style="text-align:center; " action="/category">
+
+ <br><input style="text-align:center;"  type="submit" value="change user category">
+</form>
+<form style="text-align:center; " action="/delete_user_account">
+
+ <br><input style="text-align:center;"  type="submit" value="delete user">
+</form>
+<form style="position:relative; top:-250pt; float:right;" action="/menu">
+
+ <input type="submit" value="back to menu">
+</form>
+<form style="position:relative; top:-250pt; float:left;" action="/logout">
+
+ <input type="submit" value="log out">
+</form>
